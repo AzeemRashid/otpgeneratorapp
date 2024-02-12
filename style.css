@@ -1,0 +1,36 @@
+*{
+    background-color: aqua;
+    
+
+    
+}
+.container {
+    text-align: center;
+    margin: 50px auto;
+    border: 3px solid black;
+    
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.otp-input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#generate-otp {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
